@@ -1,4 +1,5 @@
-# Question-submission-
+[
+https://play.onflow.org/cdcc9393-6a2c-4a40-a9e4-0b709fe492d4?type=script&id=0ee2a8f8-3e05-4167-a3bc-c88500856ac1&storage=none](https://play.onflow.org/local-project?type=script&id=local-script-temp-0&storage=none)# Question-submission-
 
 
  Chapter 1 Day 1
@@ -23,4 +24,22 @@ https://play.onflow.org/cdcc9393-6a2c-4a40-a9e4-0b709fe492d4?type=script&id=6014
 
 Chapter 2 Day 3
 
-https://play.onflow.org/cdcc9393-6a2c-4a40-a9e4-0b709fe492d4?type=script&id=0ee2a8f8-3e05-4167-a3bc-c88500856ac1&storage=none
+https://play.onflow.org/local-project?type=script&id=local-script-temp-0&storage=none
+
+https://play.onflow.org/local-project?type=script&id=local-script-temp-0&storage=none
+
+The ! force unwrap operator is used to unwrap optional variables forcly. Since the operation is forced it will fail or exit the code if the value is nil.
+
+pub fun main() {
+    var int5: Int? = 5
+    var unwrappedInt1: Int = int5!  
+
+    var int7: Int? = nil
+    var unwrappedInt2: Int = int7! 
+}
+
+The error message states that it is expecting a string to be returned not an optional
+
+The variable returned is a dictionary and dictonaries always return as an optional
+
+You could fix this by using ! to force unwrap the returned value or preferably change the return type to accept the optional and allow the error be handled.
