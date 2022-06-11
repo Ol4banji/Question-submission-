@@ -1,5 +1,4 @@
-[
-https://play.onflow.org/cdcc9393-6a2c-4a40-a9e4-0b709fe492d4?type=script&id=0ee2a8f8-3e05-4167-a3bc-c88500856ac1&storage=none](https://play.onflow.org/local-project?type=script&id=local-script-temp-0&storage=none)# Question-submission-
+# Question-submission-
 
 
  Chapter 1 Day 1
