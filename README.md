@@ -3,7 +3,7 @@
 
  Chapter 1 Day 1
 
--Blockchain in my own words is an open, decentralized, shared databased used openly to store data -Smart contract are programs created to specify some functionality users can interact with -Script is where user view data on blockchain while transaction is a paid function for users on blockchain
+-Blockchain in my own words is an open, decentralized, shared databased used openly to store data -Smart contract are programs created to specify some functionality users can interact with -Script is where user view data on blockchain while transaction is a paid function for users and for changing datas on blockchain 
 
 Chapter 1 Day 2
 
@@ -42,3 +42,4 @@ The error message states that it is expecting a string to be returned not an opt
 The variable returned is a dictionary and dictonaries always return as an optional
 
 You could fix this by using ! to force unwrap the returned value or preferably change the return type to accept the optional and allow the error be handled.
+Good one
